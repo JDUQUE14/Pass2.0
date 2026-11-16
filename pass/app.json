@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pass Digital",
+    "slug": "pass",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jduque14.passdigital"
+    },
+  "android": {
+  "package": "com.jduque14.passdigital",
+  "usesCleartextTraffic": true,
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/icon.png",
+    "backgroundColor": "#171a2e"
+  }
+},
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "67f63c81-73af-45d2-81f1-b241dcf2ee9a"
+      }
+    },
+    "owner": "jduque14"
+  }
+}
