@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Utiliza la variable de entorno de Expo si existe; de lo contrario, usa la IP por defecto del emulador
-const API_URL = 'http://172.20.10.2:8000/api/v1';
+const API_URL = 'https://pass2-0.onrender.com/api/v1';
 
 // 1. Iniciar sesión y guardar el token
 export const loginUser = async (email, password) => {
